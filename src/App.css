@@ -8,10 +8,10 @@
   /* Color mode HSL(hue, saturation, lightness) */
   --hue: 0;
   --sat: 0%;
-  --title-color: hs1(var(--hue), var(--sat), 20%);
-  --title-color-dark: hs1(var(--hue), var(--sat), 0%)
-  --text-color: hs1(var(--hue), var(--sat), 46%);
-  --body-color: hs1(var(--hue), var(--sat), 98%);
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%)
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   /* ====== Font and typography ======= */
   --body-font: "Poppins", sans-serif;
@@ -146,6 +146,10 @@
 
   /* For large devices */
   @media screen and (max-width: 992px){
+    .container {
+      margin-left: var(--mb-1-5);
+      margin-right: var(--mb-1-5);
+    }
 
   }
 
@@ -157,7 +161,11 @@
 
   }
 
-  /* For large devices */
+  /* For small devices */
   @media screen and (max-width: 350px){
+    .container {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    }
 
   }
