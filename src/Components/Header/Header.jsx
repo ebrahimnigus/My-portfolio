@@ -40,7 +40,7 @@ const Header = () => {
             <li className="nav_list grid">
               <a href="#portfolio" className="nav_link">
                 <i className="uil uil-scenery nav_icon">
-                </i> Portfolio
+                </i> Projects
               </a>
             </li>
             <li className="nav_list grid">
