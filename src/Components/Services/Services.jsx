@@ -34,27 +34,27 @@ const Services = () => {
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
+                                <p className="services__modal-info">I create user-friendly digital experiences.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
+                                <p className="services__modal-info"> I design intuitive and engaging interfaces.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
+                                <p className="services__modal-info">I craft seamless and functional product designs.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand</p>
+                                <p className="services__modal-info">I build visually appealing and accessible designs.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                <p className="services__modal-info">I enhance user interactions through great design.</p>
                             </li>
                         </ul>
                     </div>
@@ -83,27 +83,27 @@ const Services = () => {
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
+                                <p className="services__modal-info">I design intuitive and user-friendly interfaces.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
+                                <p className="services__modal-info">I create seamless digital user experiences.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
+                                <p className="services__modal-info">I craft engaging and accessible UI designs.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand</p>
+                                <p className="services__modal-info">I enhance usability through thoughtful UX design.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                <p className="services__modal-info">I build interactive and visually appealing designs.</p>
                             </li>
                         </ul>
                     </div>

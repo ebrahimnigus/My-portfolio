@@ -48,7 +48,7 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
     .skills__container {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2rem;

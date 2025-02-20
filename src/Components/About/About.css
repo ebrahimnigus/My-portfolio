@@ -33,8 +33,12 @@
     font-size: var(--tiny-font-size);
 }
 .about__description {
-    padding: 0.4rem 0 0;
+    padding: 0 4rem 0 0;
+    width: 600px;
     margin-bottom: var(--mb-2-5);
+    text-align: justify;  /* Aligns text to both left and right, creating equal line widths */
+    line-height: 1.5;     /* Adjust line spacing for readability */
+    word-wrap: break-word;
 }
 
 
