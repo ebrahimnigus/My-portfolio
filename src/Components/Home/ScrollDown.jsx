@@ -5,8 +5,8 @@ const ScrollDown = () => {
     <div className="home__scroll">
         <a href="#about" className="home__scroll-button button--flex">
         <svg
-                width="32px"
-                height="32px"
+                width="25px"
+                height="25px"
                 class="home__scroll-mouse"
                 viewBox="0 0 247 390"
                 version="1.1"

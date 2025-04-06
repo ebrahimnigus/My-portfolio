@@ -27,7 +27,7 @@ const Qualificiation = () => {
         <div className="qualification__sections">
           <div className= {toggleState == 1 ? "qualification__content qualification__content-active": "qualification__content"}>
             <div className="qualification__data">
-              <div>
+              <div className='qualification__front'>
                 <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">
@@ -49,7 +49,7 @@ const Qualificiation = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div>
+              <div className='qualification__round'>
                 <h3 className="qualification__title">UI/UX Expert</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">
@@ -59,7 +59,7 @@ const Qualificiation = () => {
             </div>
 
             <div className="qualification__data">
-              <div>
+              <div className='qualification__front'>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">
@@ -81,7 +81,7 @@ const Qualificiation = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div>
+              <div className='qualification__round'>
                 <h3 className="qualification__title">Project Management</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">

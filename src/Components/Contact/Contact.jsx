@@ -32,7 +32,7 @@ const Contact = () => {
 
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">user@gmail.com</span>
-                        <a href="ebrahimnigus9@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="ebrahimnigus9@gmail.com" className="contact__button" target="_blank">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -40,7 +40,7 @@ const Contact = () => {
 
                         <h3 className="contact__card-title">Whatsapp</h3>
                         <span className="contact__card-data">999-888-777</span>
-                        <a href="https://web.whatsapp.com/ebrahimnigus" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://web.whatsapp.com/ebrahimnigus" className="contact__button" target="_blank">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -48,7 +48,7 @@ const Contact = () => {
 
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data">user.fb123</span>
-                        <a href="https://www.messenger.com/new?initial_e2ee_toggle_position=true" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://www.messenger.com/new?initial_e2ee_toggle_position=true" className="contact__button" target="_blank">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>

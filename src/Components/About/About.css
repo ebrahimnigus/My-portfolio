@@ -2,14 +2,18 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     column-gap: 4rem;
+    font-family: var(--stylic-font);
 }
 .about__img {
     width: 350px;
     border-radius: 1.5rem;
-    justify-self: center;
+    justify-self: start;
+}
+.about__data {
+    margin-left: -10rem;
 }
 .about__info {
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(3, 33%);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -18,15 +22,26 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
-    padding: 1rem 1.25rem;   
+    padding: 2rem 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    
+}
+.about__box:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
 }
 .about__icon {
     font-size: 1.5rem;
     color: var(--title-color);
     margin-bottom: var(--mb-0-5);
 }
+.about__box:hover .about__icon {
+    color: #ff5733;
+}       
 .about__title {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 .about__subtitle {
@@ -44,6 +59,18 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
+
+/* ======== BreakPoints =========== */
+@media screen and (max-width: 1250px) {
+    .about__data {
+        padding-right: 2rem;
+
+    }
+    .about__img{
+        margin-left: 2rem;
+        width: 300px;;
+    }
+  }
 @media screen and (max-width: 992px) {
     .about__container{
         grid-template-columns: 1fr;
@@ -57,12 +84,14 @@
     }  
     .about__data {
         text-align: center;
+
     }
     .about__info {
         justify-content: center;
+        padding-left: 10rem;
     }
     .about__description {
-        padding: 0 5rem;
+        padding: 0 0 0 10rem;
         margin-bottom: 2rem;
     }
   }
@@ -75,7 +104,13 @@
     }
     .about__description{
         padding: 0;
-
+    }
+    .about__description {
+        padding-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .flex {
+        margin-left: 5rem;
     }
   }
   
@@ -83,6 +118,9 @@
 @media screen and (max-width: 350px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .flex {
+        margin-left: 4rem;
     }
     
   }

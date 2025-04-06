@@ -4,6 +4,7 @@
     align-items: center;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
+    font-size: var(--smaller-font-size);
 }
 .work__item {
     cursor: pointer;
@@ -14,7 +15,7 @@
     text-transform: capitalize;
 }
 .work__item:hover {
-    background-color: var(--title-color);
+    background-color: #92a3c4;
     color: var(--container-color);
 }
 
@@ -23,34 +24,63 @@
     grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
+    margin-top: 4rem;
 }
 .work__card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.25rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    width: 350px;
+    height: 300px;
+    margin-bottom: var(--mb-2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);    
+    
+}
+.work__img {
+    width: 350px;
+    height: 200px;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.work__img {
-    width: 320px;
-    height: 175px;
-    border-radius: 1rem;
-    margin-bottom: var(--mb-1);
-}
 .work__title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-5);
-}
-.work__button {
-    color: var(--text-color);
     font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    padding-left: 0.5rem;
+}
+.work__tech{
+    font-size: var(--tiny-font-size);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.work_flex {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.work__preview{
+    font-size: var(--tiny-font-size);
+    font-weight: var(--font-medium);
+    margin-top: 0.25rem;
+    color: hsl(202, 78%, 60%);
+    
+}
+.work__preview:hover {
+    color: hsl(202, 78%, 80%);
+}
+
+
+.work__button {
+    color: hsl(202, 78%, 60%);
+    font-size: var(--tiny-font-size);
+    font-weight: var(--font-medium);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
 }
 .work__button:hover {
-    color: hsl(282, 70%, 50%)
+    color: hsl(202, 78%, 80%);
     
 }
 
@@ -64,31 +94,29 @@
 
 /* active Work*/
 .active-work {
-    background-color: var(--title-color);
+    background-color: #92a3c4;
     color: var(--container-color);
 }
+
 
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1230px) {
     .work__container {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 2rem;
-        padding: 2rem;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+    
     }
-  }
+    
+}
+
 @media screen and (max-width: 992px) {
     .work__container {
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
         gap: 1.25rem;
-    }
-    .work__card {
-        padding: 1rem;
-    }
-  
-    .work__img {
-        margin-bottom: 0.75rem;
     }
     .work__title {
         margin-bottom: 0.25rem;
@@ -98,6 +126,10 @@
 @media screen and (max-width: 768px) {
     .work__container {
         grid-template-columns: max-content;
+        justify-content: center;
+    }
+    .work__filters {
+        margin-left: 2rem;
     }
 
 }
@@ -105,20 +137,35 @@
   
 @media screen and (max-width: 576px) {
     .work__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+    .work__card {
+        width: 300px;
+        height: 260px;
     }
     .work__img {
-        width: 100%;
+        width: 300px;
+        height: 170px;
+    }
+    .work__filters {
+        margin-left: 1rem;
     }
   }
   
   /* For small devices */
 @media screen and (max-width: 350px) {
-    .work__item {
-        font-size: var(--small-font-size);
+    .work__item, .work__tech, .work__preview, .work__button {
+        font-size: var(--smaller-font-size);
     }
     .work__filters {
         column-gap: 0.25rem;
+    }
+    .work__card {
+        width: 250px;
+    }
+    .work__filters {
+        margin-left: 0.5rem;
     }
   }
   

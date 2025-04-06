@@ -14,12 +14,12 @@ const About = () => {
             <div className="about__data">
               <Info />
               <p className="about__description">
-              I'm Ebrahim Ngus, a Full-Stack Developer, UI/UX Designer, and 
+              I'm Ebrahim Ngus | a Full-Stack Developer | UI/UX Designer and 
               Front-End Expert passionate about building intuitive and high-performance 
               web applications. With expertise in React, HTML, CSS, and modern frameworks, 
               I specialize in creating seamless and user-centric digital experiences. 
               </p>
-              <a download="" href={CV} className="button button--flex">Download CV
+              <a download="" href={CV} className="button flex button--flex">Download CV
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

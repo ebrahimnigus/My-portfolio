@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    color: hsl(240, 100%, 50%);
 }
 .qualification__icon {
     font-size: 1.8rem;
@@ -41,18 +41,20 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+    width: 370px;
 }
 .qualification__title {
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    
 }
 .qualification__subtitle {
     display: inline-block;
-    font-size: var(--small-font-size);
+    font-size: var(--tiny-font-size);
     margin-bottom: var(--mb-1);
 }
 .qualification__calender {
-    font-size: var(--small-font-size);
+    font-size: var(--tiny-font-size);
 }
 .qualification__rounder {
     display: inline-block;
@@ -92,6 +94,12 @@
     .qualification__button {
         margin: 0 var(--mb-0-75);
     }
+    .qualification__front {
+        margin-left: 2rem;
+    }
+    .qualification__round {
+        margin-right: 2rem;
+    }
   }
 
  /* For small devices */
@@ -99,5 +107,10 @@
     .qualification__data {
         gap: 0.5rem;
     }
-    
+    .qualification__front {
+        margin-left: 2rem;
+    }
+    .qualification__round {
+        margin-right: 2rem;
+    }
   }

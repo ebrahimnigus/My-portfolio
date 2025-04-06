@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { motion } from "framer-motion";
 
 const Data = () => {
+  const [text, setText] = useState('');
+  const fullText = "I'm a creative designer based in Addis Ababa, Passionate about building scalable, efficient, and user-friendly web applications.";
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setText(fullText.slice(0, index + 1));
+      index++;
+      if (index === fullText.length) clearInterval(interval);
+    }, 100);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="home__data">
-      <h1 className="home__title">Ebrahim
+      <motion.h1
+        whileHover={{ scale: 1.05, color: "#6F4E37" }} // Text hover effect
+        transition={{ duration: 0.3 }} className="home__title">Ebrahim
       <svg
                 width="36"
                 height="36"
@@ -53,10 +68,14 @@ const Data = () => {
                   fill="#EBA352"
                 ></path>
       </svg>
-      </h1>
-      <h3 className="home__subtitle">Visual Designer</h3>
-      <p className="home__description">I'm creative designer based in Addis, and I'm very passionate and dedicated to my work.</p>
-      <a href="#Contact" className="button button--flex">
+      </motion.h1>
+      <motion.h3  whileHover={{ scale: 1.05, color: "#6F4E37" }} // Text hover effect
+        transition={{ duration: 0.3 }} className="home__subtitle">Visual Designer</motion.h3>
+      <motion.p
+        whileHover={{ color: "#6F4E37" }}
+        transition={{ duration: 0.3 }} className="home__description">{text}</motion.p>
+      <motion.a whileHover={{ scale: 1.1, backgroundColor: "hsl(202, 78%, 70%)" }} // Button hover
+        whileTap={{ scale: 0.9 }}  href="#contact" className="button button--flex">
           Say Hello
           <svg
                 class="button__icon"
@@ -75,7 +94,7 @@ const Data = () => {
                   fill="var(--container-color)"
                 ></path>
           </svg>
-      </a>
+      </motion.a>
 
     </div>
   )

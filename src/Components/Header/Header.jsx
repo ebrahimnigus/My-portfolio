@@ -20,10 +20,10 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">Ebrahim</a>
+        <a href="index.html" className="nav__logo">{"{Ebrahim}"}</a>
 
         <div className={Toggle ? 'nav__menu show-menu': 'nav__menu'}>
-          <ul className="nav__list">
+          <ul className="nav__list nav_list">
             <li className="nav__list grid">
               <a href="#home" onClick={() => setActiveNav("#home")} className = { activeNav === '#home'? "nav__link active-link" : "nav__link"}>
                 <i className="uil uil-estate nav_icon">
