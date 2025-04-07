@@ -108,6 +108,11 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .nav__list {
+    column-gap: 1.5rem;
+  }
+}
 /* For small devices */
 @media screen and (max-width: 350px){
   .nav__menu{

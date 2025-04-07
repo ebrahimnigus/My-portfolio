@@ -36,6 +36,7 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);    
     
 }
+
 .work__img {
     width: 350px;
     height: 200px;
@@ -90,6 +91,7 @@
 }
 .work__button:hover .work__button-icon {
     transform: translateX(0.25rem);
+    
 }
 
 /* active Work*/
