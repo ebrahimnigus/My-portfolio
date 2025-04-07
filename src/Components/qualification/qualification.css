@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 .qualification__button:hover {
-    color: hsl(240, 100%, 50%);
+    color: #92a3c4;
 }
 .qualification__icon {
     font-size: 1.8rem;

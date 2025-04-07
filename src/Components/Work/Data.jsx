@@ -10,6 +10,7 @@ import Work9 from "../../assets/UW1.jpg";
 import Work10 from "../../assets/UW2.jpg";
 import Work11 from "../../assets/UM5.jpg";
 import youtube from "../../assets/youtube.mp4"
+import Work12 from "../../assets/Mern.png"
 
 
 export const projectsData = [
@@ -118,6 +119,16 @@ export const projectsData = [
     href: 'https://www.figma.com/design/jxeiWw0ySgEeGkSZpPAJ57/Online-Bike-Shopping-App?node-id=0-1&p=f&t=AlZAie2bg0702zR0-0',
     TechStack: 'Figma'
   },
+  {
+    id: 12,
+    image: Work12,
+    preview: Work12,
+    title: 'Mern project',
+    category: 'Full-Stack Web',
+    href: 'https://github.com/ebrahimnigus/Mern-Stack',
+    TechStack: 'React, Express, Mongodb'
+  },
+
 ];
 
 export const projectsNav = [
