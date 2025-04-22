@@ -17,7 +17,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon" onClick={() => toggleTab(1)}></i>
-                    <h3 className="services__title">Product <br/> Designer</h3>
+                    <h3 className="services__title">Full Stack <br/> Developer</h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(1)}>
@@ -27,7 +27,7 @@ const Services = () => {
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">Product Designer</h3>
+                        <h3 className="services__modal-title">Full Stack Developer</h3>
                         <p className="services__modal-description">
                             Service with more than 3 years of experience. Providing quality work to clients and companies.
                         </p>
@@ -35,27 +35,27 @@ const Services = () => {
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create user-friendly digital experiences.</p>
+                                <p className="services__modal-info">I develop robust web applications.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info"> I design intuitive and engaging interfaces.</p>
+                                <p className="services__modal-info">I design intuitive user interfaces.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I craft seamless and functional product designs.</p>
+                                <p className="services__modal-info">I architect scalable backend systems.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I build visually appealing and accessible designs.</p>
+                                <p className="services__modal-info">I integrate APIs and cloud services.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I enhance user interactions through great design.</p>
+                                <p className="services__modal-info">I optimize performance and reliability.</p>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +65,7 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon" onClick={() => toggleTab(1)}></i>
+                    <i className="uil uil-arrow services__icon" onClick={() => toggleTab(2)}></i>
                     <h3 className="services__title">Ui/Ux <br/> Designer</h3>
                 </div>
 
@@ -114,7 +114,7 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-edit services__icon" onClick={() => toggleTab(1)}></i>
+                    <i className="uil uil-edit services__icon" onClick={() => toggleTab(3)}></i>
                     <h3 className="services__title">Visual <br/> Designer</h3>
                 </div>
 

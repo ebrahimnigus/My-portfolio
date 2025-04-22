@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Data = () => {
   const [text, setText] = useState('');
-  const fullText = "I'm a creative designer based in Addis Ababa, Passionate about building scalable, efficient, and user-friendly web applications.";
+  const fullText = "I'm a creative Full Stack developer based in Addis Ababa, Passionate about building scalable, efficient, and user-friendly web applications.";
 
   useEffect(() => {
     let index = 0;

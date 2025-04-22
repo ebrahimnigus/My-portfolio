@@ -28,7 +28,7 @@
 .contact__card:hover {
     transform: translateY(-10px);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: #eef4ff;
+    border: 0.5px solid hsl(202, 78%, 60%);
 }
 .contact__card-icon {
     font-size: 2rem;

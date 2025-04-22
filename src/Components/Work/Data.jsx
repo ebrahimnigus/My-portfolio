@@ -11,7 +11,7 @@ import Work10 from "../../assets/UW2.jpg";
 import Work11 from "../../assets/UM5.jpg";
 import youtube from "../../assets/youtube.mp4"
 import Work12 from "../../assets/Mern.png"
-
+import Work13 from "../../assets/food-del.png"
 
 export const projectsData = [
   {
@@ -128,6 +128,16 @@ export const projectsData = [
     href: 'https://github.com/ebrahimnigus/Mern-Stack',
     TechStack: 'React, Express, Mongodb'
   },
+  {
+    id: 13,
+    image: Work13,
+    preview: Work13,
+    title: 'Food-delivery',
+    category: 'Full-Stack Web',
+    href: 'https://github.com/ebrahimnigus/Food-Delivery',
+    TechStack: 'React, Express, Mongodb, Stripe'
+  },
+  
 
 ];
 
