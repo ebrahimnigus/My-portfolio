@@ -93,7 +93,7 @@ const Qualificiation = () => {
 
           <div className= {toggleState == 2 ? "qualification__content qualification__content-active": "qualification__content"}>
             <div className="qualification__data">
-              <div>
+              <div className="qualification__front">
                 <h3 className="qualification__title">Product Designer</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">
@@ -115,7 +115,7 @@ const Qualificiation = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div>
+              <div >
                 <h3 className="qualification__title">UI/UX Designer</h3>
                 <span className="qualification__subtitle"> Addis Ababa - Institute</span>
                 <div className="qualification__calender">
@@ -125,7 +125,7 @@ const Qualificiation = () => {
             </div>
 
             <div className="qualification__data">
-              <div>
+              <div className="qualification__front">
                 <h3 className="qualification__title">Web Designer</h3>
                 <span className="qualification__subtitle"> Figma - Addis Ababa</span>
                 <div className="qualification__calender">

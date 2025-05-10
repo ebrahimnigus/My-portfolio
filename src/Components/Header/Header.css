@@ -13,10 +13,14 @@
   align-items: center;
   column-gap: 1rem;
 }
+.uil-apps {
+  font-size: 1.25rem;
+}
 .nav__logo, .nav__toggle {
   color: hsl(240, 100%, 50%);
   font-weight: var(--font-medium);
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.25rem;
 }
 .nav__list{
   display: flex;
