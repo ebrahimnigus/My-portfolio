@@ -9,7 +9,7 @@ import Work8 from "../../assets/UM4.jpg";
 import Work9 from "../../assets/UW1.jpg";
 import Work10 from "../../assets/UW2.jpg";
 import Work11 from "../../assets/UM5.jpg";
-import youtube from "../../assets/youtube.mp4"
+import youtube from "../../assets/youtube.png"
 import Work12 from "../../assets/Mern.png"
 import Work13 from "../../assets/food-del.png"
 import Work14 from "../../assets/e-commerce.png"
