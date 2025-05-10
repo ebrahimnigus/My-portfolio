@@ -136,7 +136,7 @@ export const projectsData = [
     title: 'Food-delivery',
     category: 'Full-Stack Web',
     href: 'https://github.com/ebrahimnigus/Food-Delivery',
-    TechStack: 'React, Express, Mongodb, Stripe'
+    TechStack: 'React, Express, Mongodb'
   },
   {
     id: 14,
