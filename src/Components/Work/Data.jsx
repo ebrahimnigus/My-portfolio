@@ -12,6 +12,7 @@ import Work11 from "../../assets/UM5.jpg";
 import youtube from "../../assets/youtube.mp4"
 import Work12 from "../../assets/Mern.png"
 import Work13 from "../../assets/food-del.png"
+import Work14 from "../../assets/e-commerce.png"
 
 export const projectsData = [
   {
@@ -137,6 +138,15 @@ export const projectsData = [
     href: 'https://github.com/ebrahimnigus/Food-Delivery',
     TechStack: 'React, Express, Mongodb, Stripe'
   },
+  {
+    id: 14,
+    image: Work14,
+    preview: Work14,
+    title: 'E-commerce',
+    category: 'Front-End Web',
+    href: 'https://github.com/ebrahimnigus/E-commerce-Typescript',
+    TechStack: 'React, Typescript, Tailwind'
+  }
   
 
 ];
