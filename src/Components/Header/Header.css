@@ -117,6 +117,12 @@
     column-gap: 1.5rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .home__name{
+    margin-left: -3rem;
+  }
+}
+
 /* For small devices */
 @media screen and (max-width: 350px){
   .nav__menu{
