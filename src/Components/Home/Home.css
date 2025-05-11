@@ -189,7 +189,8 @@
         height: 22px;
     }
     .home__content {
-        column-gap: 1rem;
+        column-gap: 3rem;
+        margin-top: -3rem;
     }
     .home__description {
         margin-right: var(--mb-2-5);
