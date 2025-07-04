@@ -18,7 +18,7 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    preview: youtube,
+    preview: https://youtube-clone-alpha-gold.vercel.app/,
     title: 'Youtube Clone',
     category: 'Front-End Web',
     href: 'https://github.com/ebrahimnigus/Youtube-clone',
@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    preview: Work2,
+    preview: https://netflix-clone-green-three.vercel.app/,
     title: 'Netflix Clone',
     category: 'Full-Stack Web',
     href: 'https://github.com/ebrahimnigus/Netflix-clone',
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: 3,
     image: Work3,
-    preview: Work3,
+    preview: https://nike-brand-tbq3.vercel.app/,
     title: 'Nike Brand',
     category: 'Front-End Web',
     href: 'https://github.com/ebrahimnigus/Nike-Tailwind',
